@@ -1,0 +1,305 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=PT+Sans&family=Source+Sans+Pro:wght@200;400;600;900&display=swap');
+
+
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+   
+}
+
+body {
+    
+}
+/*
+*****************************
+* =grid overrides
+*****************************
+*/
+
+.grid_3 {
+    margin-left: 60px;
+}
+
+/*
+*****************************
+* =misc
+*****************************
+*/
+
+.container_24 {
+    margin-top: 10px;
+}
+
+
+blockquote {
+    position: relative;
+}
+
+blockquote, blockquote p {
+    font-size: 15px;
+    line-height: 20px;
+    font-style: italic;
+    color: #0e0e0e;
+}
+
+blockquote p::before {
+    padding-left: 0px;
+}
+
+.credit {
+    float: right;
+    padding-right: 20px;
+}
+
+.credit>strong{
+    font-style: italic;
+    float: right;
+}
+
+
+
+p {
+    font-size: 13px;
+    line-height: 20px;
+    color: #353535;
+    
+
+}
+
+
+h1,h2 {
+    letter-spacing: px;
+}
+
+ h4 {
+    font-weight: normal;
+    
+}
+
+h3 {
+    font-size: 26px;
+    text-transform: lowercase;
+    border-bottom: 1px solid #d1d1d1;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    line-height: 1em;
+    font-weight: 600;
+}
+
+.hwork {
+    border-bottom: 0px;
+    font-weight: normal;
+    padding-bottom: 0px;
+    margin-bottom: 5px;
+    line-height: 1em;
+}
+
+
+h4 {
+    color: #787878;
+    font-weight: 400;
+    border-bottom: 1px solid #d1d1d1;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    
+}
+
+/*
+*****************************
+* =workPageImages
+*****************************
+*/
+
+.grid_12 img {
+    margin-bottom: 20px;
+    margin-top: -10px;
+
+}
+
+
+header {
+    overflow:hidden;
+}
+
+
+
+a {
+    color:#7e7e7e;
+    text-decoration: none;
+}
+
+a:hover, .selected {
+    color: black;
+}
+
+.button {
+    background-color: #242324;
+    padding: 7px;
+    font-size: 11px;
+    color: white;
+    text-transform: uppercase;
+    
+}
+
+
+
+.button:hover {
+    background-color: black;
+    color: white;
+}
+
+
+li {
+    margin-left: 24px;
+}
+
+/*
+*****************************
+* =header
+*****************************
+*/
+
+header {
+    
+}
+
+header h1 {
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    text-indent: -999px;
+    width: 174px;
+    height: 23px;
+    margin: 10px 10px 22px;
+    float: left;
+    
+}
+
+
+/*
+*****************************
+* =nav
+*****************************
+*/
+
+nav {
+    float: right;
+    padding-top: 12px;
+    padding-right: 13px
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    text-transform: lowercase;
+}
+
+/*
+*****************************
+* =banner
+*****************************
+*/
+
+
+.banner {
+    background-image: url("../img/city-back.png");
+    background-repeat: no-repeat;
+    width: 695px;
+    height: 231px;
+    clear:both;
+    position: relative;
+} 
+
+
+.callout {
+    background-color: black;
+    height: 231px;
+    margin-left: 0px;
+    margin-right: 0px;
+    float: left;
+    
+    
+}
+
+.banner h2 {
+    color: white;
+    font-size: 20px;
+    max-width: 400px;
+    position: absolute;
+    top: 125px;
+    left: 20px;
+    font-weight: lighter;
+    
+    
+    
+  
+}
+
+h2 {
+   
+}
+
+.textbg {
+    background-color: rgba(0, 0, 0, .4);
+    box-shadow: 10px 0 0px 0px rgba(0, 0, 0, .4), -10px 0 0px 0px rgba(0, 0, 0, .4);
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+
+/*
+*****************************
+* =main
+*****************************
+*/
+
+.main {
+    margin-top: 20px;
+}
+
+.main blockquote p {
+    padding-left: 15px;
+}
+
+.main blockquote p:before, 
+.main blockquote p:after {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 40px;
+    color: #bfbfbf;
+    font-style: italic;
+    
+}
+
+
+.main blockquote p:first-child::before {
+    content: '“';
+    position: absolute;
+    top: 7px;
+    left: -10px;
+}
+
+.main blockquote p:last-child::after {
+    content: '”';
+    float: right;
+    position: absolute;
+    bottom: -10px;
+    right: 25px;
+   
+}
+
+
+/*
+*****************************
+* =footer
+*****************************
+*/
+
+footer {
+    clear:both;
+    border-top: 1px solid #d1d1d1;
+    padding-top: 18px;
+    margin-top: 30px;
+}
